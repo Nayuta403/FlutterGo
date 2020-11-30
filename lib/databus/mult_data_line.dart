@@ -1,4 +1,4 @@
-import 'package:flutter_go/data_line.dart';
+import 'package:flutter_go/databus/data_line.dart';
 
 mixin MultDataLine {
   final Map<String, SingleDataLine> dataBus = Map();
