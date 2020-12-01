@@ -1,14 +1,13 @@
 # flutter_go
 
-A new Flutter package.
+记录Flutter学习过程使用的源码，这个库目前不能直接运行，但源代码可以直接移动到工程汇总使用
 
-## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+目前一个文件夹对应一个模块
+
+| 文件夹          | 对应内容                                                     |
+| --------------- | ------------------------------------------------------------ |
+| databus         | [告别setState()！ 优雅的UI与Model绑定 Flutter DataBus使用~](https://juejin.cn/post/6868104488109604871) |
+| conflict_scroll | [深入进阶-如何解决Flutter网易云页面嵌套的滑动冲突？](https://juejin.cn/post/6900751363173515278) |
+
