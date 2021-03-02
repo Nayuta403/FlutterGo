@@ -10,7 +10,7 @@ class SingleDataLine<T> {
 
   SingleDataLine([T initData]) {
     currentData = initData;
-    _stream = StreamController<T>();
+    _stream = StreamController.broadcast();
     _stream.add(initData);
   }
 
