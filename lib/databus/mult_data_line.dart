@@ -11,7 +11,7 @@ mixin MultDataLine {
     return dataBus[key];
   }
 
-  void dispose() {
+  void onDispose() {
     dataBus.values.forEach((f) => f.dispose());
     dataBus.clear();
   }
